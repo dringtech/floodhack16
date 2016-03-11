@@ -2,6 +2,7 @@
 title: Mapping flood areas
 layout: page
 permalink: /outputs/mapping/
+categories: [outputs]
 ---
 
 Many of the topic areas are locatable. Doing so (potentially as layers on a single map) will provide valuable intelligence for flood managers.

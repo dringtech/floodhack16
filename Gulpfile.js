@@ -1,7 +1,8 @@
 var gulp = require('gulp')
 var shell = require('gulp-shell')
 
-gulp.task('shorthand', shell.task([
-  'jekyll -s --config __config.yml',
-  'echo world'
+gulp.task('default', ['serve'])
+
+gulp.task('serve', shell.task([
+  'jekyll serve --config _config.yml'
 ]))

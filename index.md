@@ -11,4 +11,6 @@ We first began by mapping our areas of concern on index cards.
 
 ![](images/mindmap.jpg)
 
+![](images/gilesonatable.jpg)
+
 We captured this in a [computer-readable format](data/recovery_map.yml)
