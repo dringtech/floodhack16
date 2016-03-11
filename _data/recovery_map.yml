@@ -1,0 +1,129 @@
+- title: Planning and prepareness
+  topics:
+  - title: Warning service
+    notes: Signing up, publicising
+    theme: Planning for the future
+  - title: Mapping the flood hubs
+    notes: Need contingency plans
+    theme: Resources
+  - title: Mapping infrastructure and buildings
+    notes: electricity substations, phone exchanges, mobile network
+    theme: Resources
+  - title: How do we support volunteers
+    theme: Resources
+  - title: Volunteers - postition related to insurance
+    theme: Finance and Economy
+- title: Prior actions
+  notes: post warning, pre-flood
+  timescale: Up to 1 day before day
+  topics:
+  - title: Keyholder buddying
+    notes: especially for business properties. Register?
+    theme: Resources
+  - title: Riverlution volunteers
+    notes: Training and preparing them and publicising
+    theme: Finance and Economy
+  - title: Landlord maps
+    notes: Who owns what properties. Land next to river. UPRN?
+    theme: Resources
+  - title: Visibility of flood wardens
+    notes: Linked nationally?
+    theme: Resources
+- title: During the event
+  timescale: +1 day
+  notes: The water's stopped rising... what next?
+  topics:
+  - title: Immediate actions
+    notes: what to do with gas, water, phone, electric
+    theme: Infrastructure and buildings
+  - title: Who does what?
+    notes: Roles, responsibilities, organisation
+    theme: Intelligence
+  - title: Reporting and managing issues
+    notes: e.g. reports of piles of rubbish. Managing in a 'ticketing system'
+    theme: Intelligence
+  - title: Immediate financial assistance
+    theme: Finance and Economy
+- title: Immediate aftermath
+  timescale: 1-3 days
+  topics:
+  - title: Health concerns
+    notes: What needs to be binned vs what can be cleaned. Distribution of rubber gloves, etc
+    theme: Health and security
+  - title: Dealing with infrastructure issues
+    notes: Power, mobile, road, rail, etc
+    theme: Infrastructure and buildings
+  - title: Security concerns
+    notes: Looting, compromised properties
+    theme: Health and security
+  - title: Match volunteers to needs
+    notes: floodvolunteers.co.uk, sticker on property needing help
+    theme: Resources
+  - title: Activate response group and centre
+    theme: Resources
+  - title: Vulnerable people
+    theme: Health and security
+    notes: Red cross involved. Lists - electric company, council, evacuation request, medication support. Council adult health and social care
+  - title: Mapping affected areas
+    theme: Intelligence
+  - title: Traffic management
+    notes: Stickers on flood responder vehicles to get past flood tourists
+    theme: Resources
+- title: Immediate
+  timescale: 1 week
+  topics:
+  - title: Insurance claims questions
+    notes: Help with the claims process. What can you do before they visit.
+    theme: Finance and Economy
+  - title: Fundraising
+    notes: Promotion and governance
+    theme: Finance and Economy
+  - title: Donations of goods
+    notes: e.g. white goods
+    theme: Resources
+  - title: Donations of supplies
+    notes: What are peoples needs. Provide an Amazon wishlist
+    theme: Resources
+  - title: Business needs survey
+    notes: What do businessess need now...
+    theme: Finance and Economy
+  - title: External aid providers
+    notes: Who might help us
+    theme: Resources
+- title: 1 month
+  topics:
+  - title: Emergency repairs
+    theme: Infrastructure and buildings
+  - title: Publicising and streamlining grant applications
+    theme: Finance and Economy
+    notes: Decision tree to help people decide what they can apply for
+  - title: Heightened concern over repeat flooding
+    theme: Environment
+  - title: Local approved trade lists
+    theme: Resources
+  - title: Mental health support
+    notes: Counselling for post-trauma
+    theme: Health and security
+- title: 3 months
+  topics:
+  - title: Lessons learned and shared
+    theme: Planning for the future
+  - title: Driving trade into the local community
+    theme: Finance and Economy
+  - title: Business impact survey
+    theme: Finance and Economy
+- title: 6 months
+  topics:
+  - title: Mapping the economic impact
+    notes: used to drive investment
+    theme: Finance and Economy
+  - title: Mutual insuring uninsurable properties and businesses
+    theme: Planning for the future
+- title: 1 year
+  topics:
+  - title: Major repairs
+    theme: Infrastructure and buildings
+  - title: Planning for improved defences
+    theme: Infrastructure and buildings
+  - title: Flood exercises
+    theme: Planning for the future
