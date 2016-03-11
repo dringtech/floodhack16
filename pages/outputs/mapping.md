@@ -3,6 +3,11 @@ title: Mapping flood areas
 layout: page
 permalink: /outputs/mapping/
 categories: [outputs]
+summary:
+  The speed and volume of information means that it can be difficult
+  to proritise actions during a flood recovery. Approaches to visualising
+  information can help flood managers make sense of this information. As much
+  of this can be geolocated, mapping can be a powerful visualisation tool.
 ---
 
 Many of the topic areas are locatable. Doing so (potentially as layers on a single map) will provide valuable intelligence for flood managers.

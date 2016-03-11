@@ -3,6 +3,13 @@ title: Matching needs to offers
 layout: page
 permalink: /outputs/matching/
 categories: [outputs]
+summary:
+  Recent experiences show that people want to help, and clearly during
+  the aftermath of a flooding event, people need help. There is often a
+  problem with the matchmaking between needs and offers, especially
+  in the early chaotic days of a flood event. Approaches to managing this
+  which account for the constraints that may be prevalent (e.g. loss of power
+  or communication) will be of great value.
 ---
 
 There are many opportunities to facilitate easier matching of individual needs to offers of assistance:
