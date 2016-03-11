@@ -3,8 +3,8 @@ title: FloodHack 16 - Recovery
 description: >
   This is the output of the FloodHack2016 Recovery phase working group
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dringtech.github.io/floodhack16" # the base hostname & protocol for your site
+baseurl: "/floodhack16/" # the subpath of your site, e.g. /blog/
+url: "http://dringtech.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Giles Dring
