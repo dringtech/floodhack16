@@ -14,3 +14,8 @@ We first began by mapping our areas of concern on index cards.
 ![](images/gilesonatable.jpg)
 
 We captured this in a [computer-readable format](data/recovery_map.yml)
+
+We then focussed on some potential outputs:
+
+* [Mapping](outputs/mapping/)
+* [Matching](outputs/matching/)
