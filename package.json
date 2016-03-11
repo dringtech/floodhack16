@@ -1,0 +1,21 @@
+{
+  "name": "floodhack16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dringtech/floodhack16.git"
+  },
+  "author": "Giles Dring <giles@dringtech.com>",
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/dringtech/floodhack16/issues"
+  },
+  "homepage": "https://github.com/dringtech/floodhack16#readme"
+}

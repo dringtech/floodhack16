@@ -1,6 +1,6 @@
 ---
 title: How to... Flood Recovery
-subtitle: FloodHack 16 working group
+subtitle: FloodHack '16 working group
 sitemap:
   priority: 0.9
 layout: page
