@@ -17,5 +17,7 @@ We captured this in a [computer-readable format](data/recovery_map.yml)
 
 We then focussed on some potential outputs:
 
+
+* [Timeline](outputs/timeline/)
 * [Mapping](outputs/mapping/)
 * [Matching](outputs/matching/)

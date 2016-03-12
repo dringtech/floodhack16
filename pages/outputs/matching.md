@@ -2,7 +2,7 @@
 title: Matching needs to offers
 layout: page
 permalink: /outputs/matching/
-categories: [outputs]
+categories: [output]
 summary:
   Recent experiences show that people want to help, and clearly during
   the aftermath of a flooding event, people need help. There is often a

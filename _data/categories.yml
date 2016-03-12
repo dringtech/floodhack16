@@ -1,5 +1,8 @@
-- slug: outputs
+- slug: output
   name: Outputs
 
-- slug: resources
+- slug: resource
   name: Resources
+
+- slug: case-study
+  name: Case Studies

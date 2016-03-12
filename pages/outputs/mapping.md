@@ -2,7 +2,7 @@
 title: Mapping flood areas
 layout: page
 permalink: /outputs/mapping/
-categories: [outputs]
+categories: [output]
 summary:
   The speed and volume of information means that it can be difficult
   to proritise actions during a flood recovery. Approaches to visualising

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /outputs/timeline/
-categories: [outputs]
+categories: [output]
 title: Timeline of a flood recovery
 summary:
   TBC
