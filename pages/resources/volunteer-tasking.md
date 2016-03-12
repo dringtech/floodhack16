@@ -9,3 +9,7 @@ permaling: /resources/volunteer-management/
 ---
 
 See VOST UK, Micromappers, Standby Taskforce etc.
+
+App developed by Tim Harbour for Hebden Bridge Town Hall. Currently closed CMS. This is [written up in a Word Document][WRITEUP].
+
+[WRITEUP]: {{ "/documents/VolunteerMatchingApp_TimHarbour_HebdenBridgeTownHall.doc" | prepend: site.baseurl }}

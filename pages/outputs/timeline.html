@@ -1,0 +1,150 @@
+---
+layout: page
+permalink: /outputs/timeline/
+categories: [output]
+title: Timeline of a flood recovery
+summary:
+  TBC
+css:
+  - https://cdnjs.cloudflare.com/ajax/libs/vis/4.15.1/vis.min.css
+scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/vis/4.15.1/vis.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js
+---
+<div id="visualization"></div>
+
+{% for script in page.scripts %}
+  <script src="{{ script }}"></script>
+{% endfor %}
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    console.log( "ready!" );
+
+    var dataSet = "{{ '/data/recovery_map.json' | prepend: site.baseurl }}";
+
+    $.ajax({
+      url: dataSet,
+      success: function(resource) {
+        var data = resource.map(function(x) {
+          x["start"] = Date.parse(x["start"]);
+          if (x.hasOwnProperty('end')) {
+            x['end']= Date.parse(x['end']);
+          }
+          return x;
+        });
+        var container = document.getElementById('visualization');
+        //data is the JSON sing
+        var items = new vis.DataSet(data);
+        // Configuration for the Timeline
+        var options = {
+          start: '2015-12-01',
+          min: '2015-12-01',
+          end: '2016-01-02',
+          max: '2017-03-30',
+          editable: false,
+          stack: true,
+          autoresize: false,
+          height: 400,
+          zoomable: false
+        }
+        // Create a Timeline
+
+        //
+        //     var items = new vis.DataSet([
+        //       {
+        //         type: {
+        //           start: new Date(2015, 12, 25),
+        //           end: new Date(2016, 12, 25)
+        //         }
+        //     }]);
+        //     var groups = new vis.DataSet([
+        //       {
+        //         id: 1,
+        //         content: 'Individuals & Businesses',
+        //         // Optional: a field 'className', 'style'
+        //       },
+        //       {
+        //         id: 2,
+        //         content: 'Community Response Groups'
+        //         // Optional: a field 'className', 'style'
+        //       },
+        //       {
+        //         id: 3,
+        //         content: 'Emergency Services'
+        //         // Optional: a field 'className', 'style'
+        //       },
+        //       {
+        //         id: 4,
+        //         content: 'Local Authorities'
+        //         // Optional: a field 'className', 'style'
+        //       }
+        //     ]);
+        //
+        //     // add items to the DataSet
+        //         items.add([
+        //             {id: '111',start: '2015-12-25', end: '2015-12-25',  content: 'Preparedness Survey'},
+        //             {id: '112',start: '2015-12-25', end: '2015-12-25',  content:'Keys & Access'},
+        //             {id: '113',start: '2015-12-25', end: '2015-12-25',  content:'Food & Water'},
+        //             {id: '114',start: '2015-12-25', end: '2015-12-25',  content:'Backup Power & Communication'},
+        //             {id: '115',start: '2015-12-25', end: '2015-12-25',  content:'Vulnerable Equipment'},
+        //
+        //
+        //             {id: '121',start: '2015-12-25', end: '2015-12-25',  content: 'Volunteer Callout & Survey'},
+        //             {id: '122',start: '2015-12-25', end: '2015-12-25',  content: 'Response Equipment Survey'},
+        //
+        //             {id: '131',start: '2015-12-25', end: '2015-12-25', content: 'Response Equipment Survey'},
+        //
+        //             {id: '211',start: '2015-12-26', end: '2015-12-26',  content: 'Is anyone apped?'},
+        //             {id: '212',start: '2015-12-26', end: '2015-12-26',  content: 'Can people / equipment get in and out of your immediate area'},
+        //
+        //
+        //             {id: '221',start: '2015-12-26', end: '2015-12-26',  content: 'Is anyone injured?'},
+        //             {id: '222',start: '2015-12-26', end: '2015-12-26',  content: 'Is the building damaged?'},
+        //             {id: '223',start: '2015-12-26', end: '2015-12-26',  content: 'Is the building secure?'},
+        //
+        //             {id: '224',start: '2015-12-26', end: '2015-12-26',  content: 'Food & Water'},
+        //             {id: '225',start: '2015-12-26', end: '2015-12-26',  content: 'Medical'},
+        //             {id: '226',start: '2015-12-26', end: '2015-12-26',  content: 'Security (feeling safe & secure)'},
+        //             {id: '227',start: '2015-12-26', end: '2015-12-26',  content: 'Power'},
+        //             {id: '228',start: '2015-12-26', end: '2015-12-26',  content: 'Communications'},
+        //
+        //             {id: '231',start: '2015-12-26', end: '2015-12-26',  content: 'Roles'},
+        //             {id: '232',start: '2015-12-26', end: '2015-12-26',  content: 'Responsibilities'},
+        //             {id: '233',start: '2015-12-26', end: '2015-12-26',  content: 'Organisations'},
+        //
+        //             {id: '241',start: '2015-12-26', end: '2015-12-26',  content: 'Data Collection from Local People'},
+        //             {id: '242',start: '2015-12-26', end: '2015-12-26',  content: 'Data Input to GIS and database'},
+        //
+        //             {id: '251',start: '2015-12-26', end: '2015-12-26',  content: 'Reporting Key Issues (vulnerable people and access to rescues'},
+        //             {id: '252',start: '2015-12-26', end: '2015-12-26',  content: 'Emergency Services Liaison'},
+        //
+        //             {id: '311',start: '2015-12-27', end: '2015-12-29',  content: 'Equipment & Contents'},
+        //             {id: '312',start: '2015-12-27', end: '2015-12-29',  content: 'What can be cleaned / restored v. not'},
+        //             {id: '313',start: '2015-12-27', end: '2015-12-29',  content: 'Security '},
+        //
+        //             {id: '321',start: '2015-12-27', end: '2015-12-29',  content: 'Floodwater Reach'},
+        //             {id: '322',start: '2015-12-27', end: '2015-12-29',  content: 'Equipment & Contents'},
+        //
+        //
+        //
+        //     ]);
+        //
+        var timeline = new vis.Timeline(container, items, options);
+      }
+    });
+  });
+</script>
+
+<ul>
+{% for timeslice in site.data.recovery_map %}
+  <li>
+    {{ timeslice.title }}
+    <ul>
+      {% for topic in timeslice.topics %}
+        <li>{{topic.title}}</li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>

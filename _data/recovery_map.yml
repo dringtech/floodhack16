@@ -1,4 +1,6 @@
 - title: Planning and prepareness
+  start: -365
+  end: -7
   topics:
   - title: Warning service
     notes: Signing up, publicising
@@ -16,6 +18,8 @@
 - title: Prior actions
   notes: post warning, pre-flood
   timescale: Up to 1 day before day
+  start: -1
+  end: 0
   topics:
   - title: Keyholder buddying
     notes: especially for business properties. Register?
@@ -31,6 +35,8 @@
     theme: Resources
 - title: During the event
   timescale: +1 day
+  start: 0
+  end: 1
   notes: The water's stopped rising... what next?
   topics:
   - title: Immediate actions
@@ -46,6 +52,8 @@
     theme: Finance and Economy
 - title: Immediate aftermath
   timescale: 1-3 days
+  start: 1
+  end: 3
   topics:
   - title: Health concerns
     notes: What needs to be binned vs what can be cleaned. Distribution of rubber gloves, etc
@@ -71,6 +79,8 @@
     theme: Resources
 - title: Immediate
   timescale: 1 week
+  start: 3
+  end: 7
   topics:
   - title: Insurance claims questions
     notes: Help with the claims process. What can you do before they visit.
@@ -91,6 +101,8 @@
     notes: Who might help us
     theme: Resources
 - title: 1 month
+  start: 7
+  end: 31
   topics:
   - title: Emergency repairs
     theme: Infrastructure and buildings
@@ -105,6 +117,8 @@
     notes: Counselling for post-trauma
     theme: Health and security
 - title: 3 months
+  start: 31
+  end: 90
   topics:
   - title: Lessons learned and shared
     theme: Planning for the future
@@ -113,6 +127,8 @@
   - title: Business impact survey
     theme: Finance and Economy
 - title: 6 months
+  start: 90
+  end: 183
   topics:
   - title: Mapping the economic impact
     notes: used to drive investment
@@ -120,6 +136,8 @@
   - title: Mutual insuring uninsurable properties and businesses
     theme: Planning for the future
 - title: 1 year
+  start: 183
+  end: 365
   topics:
   - title: Major repairs
     theme: Infrastructure and buildings
