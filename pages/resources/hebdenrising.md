@@ -51,6 +51,16 @@ the [hebdenrising github repository][HRGITHUB]. The site is on the
 
 Data is hosted in a [Google Fusion table][FUSION] with the following columns:
 
+| Column name   | Description
+|---------------|--------------
+| Name          | Name of asset (business, school, etc)
+| Street_number | Number or name of property
+| Street_name   | Street property is located on
+| Postcode      | Postcode of property
+| Location      | Lat / Lng of property
+| Status        | Status of property from Closed, Popped-up elsewhere, Planned reopening, Partly open, Fully open
+| Comments      | Any other comments - e.g. link to website, alternative details
+
 An admin client is being created at present.
 
 [HEBDENRISING]: http://hebdenrising.com "Link to the Hebden Rising site"

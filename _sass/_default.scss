@@ -307,3 +307,10 @@ strong {
 .summary {
   font-style: italic;
 }
+
+td, th {
+  padding: 5px;
+  border-color: lightgray;
+  border-width: medium;
+  border-style: solid;
+}
